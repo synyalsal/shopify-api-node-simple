@@ -1,10 +1,6 @@
 require('dotenv').config();
 const express = require('express');
 const fetch = require('node-fetch');
-const { shopifyApi, ApiVersion, LATEST_API_VERSION } = require('@shopify/shopify-api');
-const { restResources } = require('@shopify/shopify-api/rest/admin/2023-07');
-const { shopifyApp } = require('@shopify/shopify-app-express');
-const { Node: NodeAdapter } = require('@shopify/shopify-app-session-storage-memory');
 const path = require('path');
 const cors = require('cors');
 
